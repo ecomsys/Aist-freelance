@@ -1,0 +1,906 @@
+<!doctype html>
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Главная</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" href="vendor/bootstrap-grid.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+
+	<body>
+		<div class="site-wrapper">
+			<a class="screen-reader-text skip-link" href="#primary">Перейти к контенту</a>
+			<header id="masthead" class="site-header" role="banner">
+	<div class="container">
+		<!-- Flex css: space-beetwen  -->
+		<div class="site-header_row">
+			<div class="row-group justify-content-between" id="logo-transfer-place">
+				
+				<div class="flex-group">
+					<!-- PHONE BUTTON -->
+					<a href="tel:1234567890" class="btn-call" aria-label="Позвонить в компанию Аист">
+						<img src="./icons/phone.svg" alt="" aria-hidden="true">
+					</a>
+					<div id="options-transfer-place"></div>
+				</div>
+			</div>
+
+			<div class="row-group">
+				<!-- LOGO -->
+				<a href="#" class="logo" id="logo">
+					<div class="logo_image">
+						<img src="./images/webp/logo.webp" alt="АИСТ : Транспорт для курьеров">
+					</div>
+					<h1 class="logo_title">Транспорт для курьеров</h1>
+				</a>
+
+				<!-- HEADER BUTTONS-->
+				<div class="site-header_buttons">
+					<button onclick="document.location='#openModalExtension'" id="rental-button" class="btn-extend-rental" aria-label="Продлить аренду">Продлить аренду</button>
+					<button onclick="document.location='#openModalMessage'" id="request-button" class="btn-leave-request" aria-label="Оставить заявку">Оставить заявку</button>
+					<button id="options-button" class="btn-options" aria-label="Опции">
+						<img src="./icons/tiles.svg" alt="" aria-hidden="true">
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+			<main id="primary" class="site-main" role="main">
+				<section class="section-increase-income" aria-labelledby="increase-income">
+	<h2 class="visually-hidden" id="increase-income">Зарабатывай больше вместе с электровелосипедами от компании АиСТ!</h2>
+	<div class="container">
+		<div class="increase">
+			<div class="increase-tile">
+				<div class="increase-tile_header">
+					<div class="section-title">
+						Зарабатывай больше
+						вместе с электровелосипедами от компании <span class="color-accent">АиСТ</span>!
+					</div>
+					<p>
+						Быстрее доставил — <span class="color-accent">больше</span> заработал! Крути не сам, вези груз
+						<span class="color-accent">больше</span>!
+					</p>
+				</div>
+				<div class="increase-tile_footer">
+					<div class="increase-tile_arrows">
+						<img class="img-responsive" src="./images/webp/block-1/arrows.webp" alt="" aria-hidden="true">
+					</div>
+					<a href="#openModalMessage" class="increase-tile_btn"><span>Увеличить доход</span></a>
+				</div>
+			</div>
+			<div class="increase-bird">
+				<img class="img-responsive" src="./images/webp/block-1/moped.webp" alt="" aria-hidden="true">
+			</div>
+		</div>
+	</div>
+</section>
+
+				<section id="monsters" class="section-monsters" aria-labelledby="monsters-park">
+	<h2 class="visually-hidden" id="monsters-park">Парк электроовелосипедов</h2>
+	<div class="container">
+		<div class="section-title">Парк электровелосипедов</div>
+		<div class="monsters-park">
+			<div class="row g-lg-35 g-md-3">
+				<!-- 1 -->
+				<div class="col-sm-6 col-md-4">
+					<div class="monsters-card">
+						<div class="monsters-card-before-1"></div>
+
+						<div class="monsters-card_image">
+							<img src="./images/webp/block-15/monster-truck.webp" alt="Monster Truck">
+						</div>
+						<div class="monsters-card_info">
+							<div class="monsters-card_title">
+								<h2>Monster Truck</h2>
+							</div>
+							<div class="monsters-card_description">
+								<p>2 аккумулятора или 1 увеличенный</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- 2 -->
+				<div class="col-sm-6 col-md-4">
+					<div class="monsters-card">
+						<div class="monsters-card-before-2"></div>
+
+						<div class="monsters-card_image">
+							<img src="./images/webp/block-15/monster-truck-liming.webp" alt="Monster Liming">
+						</div>
+						<div class="monsters-card_info">
+							<div class="monsters-card_title">
+								<h2>Monster Liming</h2>
+							</div>
+							<div class="monsters-card_description">
+								<p>2 аккумулятора</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- 3 -->
+				<div class="col-md-4 col-sm-12">
+					<div class="monsters-card monsters-card-end">
+						<div class="monsters-card-before-3"></div>
+
+						<div class="monsters-card_image">
+							<img src="./images/webp/block-15/monster-truck-gt.webp" alt="Monster Truck GT">
+						</div>
+						<div class="monsters-card_info">
+							<div class="monsters-card_title">
+								<h2>Monster Truck GT</h2>
+							</div>
+							<div class="monsters-card_description">
+								<p>2 аккумулятора</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+				<section class="section-it-helps" aria-labelledby="it-helps">
+	<h2 class="visually-hidden" id="it-helps">Как АИСТ помогает курьерам зарабатывать больше !</h2>
+	<div class="container">
+		<div class="helps">
+			<!-- row 1 -->
+			<div class="helps_row helps_row-1">
+				<!-- col 1 -->
+				<div class="helps_col" id="for-sm-item-1">
+					<!-- item title -->
+					<div class="helps_col-item col-item-0">
+						<div class="section-title">
+							Как <span class="color-accent">АиСТ</span> помогает курьерам
+							<div class="accent-rects">
+								<span class="accent-rects_left">зарабатывать</span>
+								<span class="accent-rects_right">больше :</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- item 2-->
+					<div class="helps_col-item col-item-2" id="helps-item-2">
+						<div class="helps-tile">
+							<div class="helps-tile_count">
+								<span>02.</span>
+							</div>
+							<div class="helps-tile_title">
+								<h3><span class="color-accent">VIP</span>-Удобства</h3>
+							</div>
+							<div class="helps-tile_description">
+								<p>Все наши байки в отличном состоянии и оборудованы всеми возможными удобствами</p>
+								<p>Бонусом вы получите шлем, антивандальную цепь!</p>
+							</div>
+							<div class="helps-tile_list">
+								<ul>
+									<li>Держатель для телефона</li>
+									<li>Багаж</li>
+									<li>Сигнализация</li>
+									<li>Корзина</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- col 2 -->
+				<div class="helps_col" id="for-sm-item-2">
+					<!-- item 1-->
+					<div class="helps_col-item col-item-1" id="helps-item-1">
+						<div class="helps-tile">
+							<div class="helps-tile_count">
+								<span>01.</span>
+							</div>
+							<div class="helps-tile_title">
+								<h3>Быстрее доставил — <span class="color-accent">Больше заработал</span></h3>
+							</div>
+							<div class="helps-tile_description">
+								<p>Наш электровелосипед быстрее, чем ноги пешехода, и мобильнее, чем машина.</p>
+								<p>Не тратьте драгоценное время на бесконечные пробки и на поиск парковки.</p>
+								<p>Пролетайте заторы на скорости, доставляйте посылки на 70% быстрее и зарабатывайте в разы больше!</p>
+							</div>
+							<div class="helps-tile_bird">
+								<img class="img-responsive" src="./images/webp/block-2/bird-1.webp" alt="" aria-hidden="true">
+							</div>
+						</div>
+					</div>
+
+					<!-- item 3-->
+					<div class="helps_col-item col-item-3">
+						<div class="helps-tile">
+							<div class="helps-tile_count">
+								<span>03.</span>
+							</div>
+							<div class="helps-tile_title">
+								<h3>Грузоподъемность <span class="color-accent">до 200кг</span></h3>
+							</div>
+							<div class="helps-tile_description">
+								<p>Стальная рама и грузовые платформы спереди и сзади помогают байку везти на себе до 200 кг!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- row 2 -->
+			<div class="helps_row helps_row-2">
+				<!-- col 1 -->
+				<div class="helps_col">
+					<!-- item 4-->
+					<div class="helps_col-item col-item-4">
+						<div class="helps-tile">
+							<div class="helps-tile_count">
+								<span>04.</span>
+							</div>
+							<div class="helps-tile_title">
+								<h3>Батареи хватит <span class="color-accent">на полную смену</span></h3>
+							</div>
+							<div class="helps-tile_description">
+								<p>На каждом электровелосипеде стоит батарея высокой мощности</p>
+								<p>И этого хватит, чтобы работать в течение всей смены без пауз на подзарядку.</p>
+								<p>
+									Доставляете больше посылок и — <br>
+									получайте больше денег!
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="helps_col">
+					<!-- item 5-->
+					<div class="helps_col-item col-item-5">
+						<div class="helps-tile">
+							<div class="helps-tile_count">
+								<span>05.</span>
+							</div>
+							<div class="helps-tile_title">
+								<h3><span class="color-accent">IOT</span> - модуль</h3>
+							</div>
+							<div class="helps-tile_description">
+								<p>Датчик GPS который ограничивает скорость электровелосипеда</p>
+								<p>
+									настраивает медленные зоны и самое главное он обязателен к установке в СПБ и МСК, без них ЭВ не могут
+									передвигаться
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- item Link button-->
+					<div class="helps_col-item col-item-btn">
+						<a href="#openModalMessage" class="helps_btn">
+							<span>зарабатывать</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+				<section class="section-cost" aria-labelledby="it-cost">
+	<h2 class="visually-hidden" id="it-cost">Сколько стоит ?</h2>
+	<div class="container">
+		<div class="section-title">Сколько стоит ?</div>
+		<div class="itcost">
+			<div class="itcost_row">
+				<!-- column-1 -->
+				<div class="itcost_col">
+					<div class="itcost_tabs tabs-nav">
+						<!-- tab 1 -->
+						<button class="itcost_tab" data-tab="tab_1">
+							<span class="itcost_rate">
+								<small>тариф</small>
+								<strong>мой район</strong>
+							</span>
+							<span class="itcost_price">
+								<span>4500р</span>
+							</span>
+						</button>
+						<!-- tab 2 -->
+						<button class="itcost_tab" data-tab="tab_2">
+							<span class="itcost_rate">
+								<small>тариф</small>
+								<strong>профи</strong>
+							</span>
+							<span class="itcost_price">
+								<span>3500р</span>
+							</span>
+						</button>
+						<!-- tab 3 -->
+						<button class="itcost_tab" data-tab="tab_3">
+							<span class="itcost_rate">
+								<small>тариф</small>
+								<strong>как свой</strong>
+							</span>
+							<span class="itcost_price">
+								<span>3700р</span>
+							</span>
+						</button>
+					</div>
+				</div>
+
+				<!-- column-2 -->
+				<div class="itcost_col">
+					<!-- panel 1 -->
+					<div class="itcost_panel tabs-panel" data-panel="tab_1">
+						<p>
+							тариф <span class="color-blue">«мой район»</span><br>
+							<span class="color-accent"> 4500р в неделю</span>
+						</p>
+						<p>
+							Обслуживание включено <span class="color-blue">(замена колодок, суппортов, диагностика)</span>
+							если курьер катается в Кировском районе и может доехать до нашего офиса.
+						</p>
+					</div>
+					<!-- panel 2 -->
+					<div class="itcost_panel tabs-panel" data-panel="tab_2">
+						<p>
+							тариф <span class="color-blue">«профи»</span><br>
+							<span class="color-accent"> 3500р в неделю</span>
+						</p>
+						<p>
+							<span class="color-blue">(Обслуживание не входит) </span>
+							для тех кто уверен в своих силах и знает где отремонтировать своего коня при поломке.
+						</p>
+					</div>
+					<!-- panel 3 -->
+					<div class="itcost_panel tabs-panel" data-panel="tab_3">
+						<p>
+							тариф <span class="color-blue">«Как свой»</span><br>
+							- для тех,кто дорожит временем кто бережно относится к электровелосипеду как к средству для зарабатывания денег,
+							кто не хочет думать где бы починить качественно своего "кормильца"
+						</p>
+						<p>
+							<span class="color-blue">Наши квалифицированный партнеры</span>
+							всё сделают в лучшем виде(качественно и недорого),это всё за
+							<span class="color-accent">3700 р в неделю </span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- itcost_row -->
+
+			<!-- form -->
+			<div class="itcost_form">
+				<form action="" id="rate-form">
+					<input id="rate-input" type="text" value="" hidden>
+					<button type="submit" onclick="document.location='#openModalExtension2'">
+						<span>Выбрать</span>
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+ 
+				<section class="section-redemption" aria-labelledby="redemption">
+	<h2 class="visually-hidden" id="redemption">Аренда с правом выкупа</h2>
+	<div class="container">
+		<div class="section-title">Аренда с правом выкупа</div>
+
+		<div class="redemption">
+            <!-- 1 -->
+			<div class="redemption_row">
+				<div class="redemption_col">
+                    <div class="blue-item">
+						<p>на 6 месяцев</p>
+					</div>
+					<div class="black-item">
+						<p>Аренда с правом выкупа</p>
+					</div>					
+				</div>
+				<div class="redemption_grid">
+					<div class="black-item">
+						<small>в неделю</small>
+						<strong>5 550р</strong>
+					</div>
+                    <div class="black-item">
+						<small>в месяц</small>
+						<strong>22 000р</strong>
+					</div>
+				</div>
+			</div>
+             <!-- 2 -->
+			<div class="redemption_row">
+				<div class="redemption_col">
+					<div class="black-item">
+						<p>Аренда с правом выкупа</p>
+					</div>
+					<div class="blue-item">
+						<p>на 4 месяцев</p>
+					</div>
+				</div>
+				<div class="redemption_grid">
+					<div class="black-item">
+						<small>в неделю</small>
+						<strong>6 900р</strong>
+					</div>
+                    <div class="black-item">
+						<small>в месяц</small>
+						<strong>27 600р</strong>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+				<section class="section-bike-park" aria-labelledby="bike-park">
+	<h2 class="visually-hidden" id="bike-park">Парк электровелосипедов</h2>
+	<div class="container">
+		<div class="section-title">Парк электровелосипедов</div>
+		<div class="bike-park">
+			<div class="row">
+				<!-- 1 column -->
+				<div class="col-sm-6">
+					<div class="bike-park_full">
+						<div class="bike-park_tile tile-1">
+							<h3 class="tile-accent">Monster truck</h3>
+							<p class="tile-desc">2 аккумулятора или 1 увеличенный</p>
+						</div>
+						<div class="bike-park_tile tile-2">
+							<h3 class="tile-accent">Monster Liming</h3>
+							<p class="tile-desc">2 аккумулятора</p>
+						</div>
+						<div class="bike-park_tile tile-3">
+							<h3 class="tile-accent">Monster Non Stop</h3>
+							<p class="tile-desc">2 аккумулятора</p>
+						</div>
+					</div>
+				</div>
+				<!-- 2 column -->
+				<div class="col-sm-6">
+					<div class="bike-park_full">
+						<div class="bike-park_tile tile-4">
+							<div class="tile-align-center">
+								<p class="tile-desc">Ротация каждые 4-6 месяцев</p>
+							</div>
+						</div>
+						<div class="bike-park_bird">
+							<img class="img-responsive" src="./images/webp/block-5/aist.webp" alt="" aria-hidden="true">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+ 
+				<section id="reviews" class="section-reviews" aria-labelledby="it-reviews">
+	<h2 class="visually-hidden" id="it-reviews">Отзывы</h2>
+	<div class="container">
+		<div class="reviews-header">
+			<div class="section-title">Отзывы</div>
+			<!-- Навигационные стрелки -->
+			<div class="swiper-navigation">
+				<button class="swiper-button-prev" aria-label="Предыдущий слайд">
+					<img src="./icons/left.svg" alt="" aria-hidden="true">
+				</button>
+				<button class="swiper-button-next" aria-label="Следующий слайд">
+					<img src="./icons/right.svg" alt="" aria-hidden="true">
+				</button>
+			</div>
+		</div>
+
+		<!-- Swiper контейнер -->
+		<div class="swiper-container">
+			<div class="review-slider swiper-wrapper">
+				<!-- Первый слайд -->
+				<article class="review-slide swiper-slide" role="group" aria-label="Отзыв 1">
+					<header class="review-slide_header">
+						<div class="review-slide_avatar" aria-hidden="true">
+							<img class="img-responsive" src="./images/webp/block-6/woman.webp" alt="Аватар пользователя">
+						</div>
+						<div class="review-slide_info">
+							<h3 class="review-slide_author">Алина Генералова</h3>
+							<div class="review-slide_rating" aria-hidden="true" title="Рейтинг: 5 из 5">
+								<span class="stars">
+									<!-- Звезды -->
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+								</span>
+							</div>
+						</div>
+					</header>
+					<div class="review-slide_content">
+						<p>Замечательный выбор! Экологичный транспорт, экономит время и силы. Заряжается быстро, и дизайн стильный. Рекомендую всем!</p>
+					</div>
+					<footer class="review-slide_footer">
+						<time datetime="2025-04-20">17 июля 2025</time>
+					</footer>
+				</article>
+
+				<!-- Второй слайд -->
+				<article class="review-slide swiper-slide" role="group" aria-label="Отзыв 2">
+					<header class="review-slide_header">
+						<div class="review-slide_avatar" aria-hidden="true">
+							<img class="img-responsive" src="./images/webp/block-6/man1.webp" alt="Аватар пользователя">
+						</div>
+						<div class="review-slide_info">
+							<h3 class="review-slide_author">Илья Васильев</h3>
+							<div class="review-slide_rating" aria-hidden="true" title="Рейтинг: 5 из 5">
+								<span class="stars">
+									<!-- Звезды -->
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+								</span>
+							</div>
+						</div>
+					</header>
+					<div class="review-slide_content">
+						<p>Отличный электровелосипед! Легкий в управлении, быстро заряжается и идеально подходит для ежедневных поездок. Очень доволен покупкой!</p>
+					</div>
+					<footer class="review-slide_footer">
+						<time datetime="2025-04-20">20 апреля 2025</time>
+					</footer>
+				</article>
+
+				<!-- Третий слайд -->
+				<article class="review-slide swiper-slide" role="group" aria-label="Отзыв 3">
+					<header class="review-slide_header">
+						<div class="review-slide_avatar" aria-hidden="true">
+							<img class="img-responsive" src="./images/webp/block-6/man2.webp" alt="Аватар пользователя">
+						</div>
+						<div class="review-slide_info">
+							<h3 class="review-slide_author">Федор Достоевский</h3>
+							<div class="review-slide_rating" aria-hidden="true" title="Рейтинг: 5 из 5">
+								<span class="stars">
+									<!-- Звезды -->
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+								</span>
+							</div>
+						</div>
+					</header>
+					<div class="review-slide_content">
+						<p>Купил электровелосипед здесь — качество на высоте! Удобный, мощный и надежный. Отличный способ передвигаться по городу!!</p>
+					</div>
+					<footer class="review-slide_footer">
+						<time datetime="2025-04-20">2 мая 2025</time>
+					</footer>
+				</article>
+
+				<!-- 4 слайд -->
+				<article class="review-slide swiper-slide" role="group" aria-label="Отзыв 4">
+					<header class="review-slide_header">
+						<div class="review-slide_avatar" aria-hidden="true">
+							<img class="img-responsive" src="./images/webp/block-6/woman.webp" alt="Аватар пользователя">
+						</div>
+						<div class="review-slide_info">
+							<h3 class="review-slide_author">Иван Кузьмич</h3>
+							<div class="review-slide_rating" aria-hidden="true" title="Рейтинг: 5 из 5">
+								<span class="stars">
+									<!-- Звезды -->
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+								</span>
+							</div>
+						</div>
+					</header>
+					<div class="review-slide_content">
+						<p>Отзыв очень положительный, всё было быстро и качественно. Рекомендую!</p>
+					</div>
+					<footer class="review-slide_footer">
+						<time datetime="2025-04-20">20 апреля 2025</time>
+					</footer>
+				</article>
+
+				<!-- 5 слайд -->
+				<article class="review-slide swiper-slide" role="group" aria-label="Отзыв 5">
+					<header class="review-slide_header">
+						<div class="review-slide_avatar" aria-hidden="true">
+							<img class="img-responsive" src="./images/webp/block-6/woman.webp" alt="Аватар пользователя">
+						</div>
+						<div class="review-slide_info">
+							<h3 class="review-slide_author">Карина Капитальная</h3>
+							<div class="review-slide_rating" aria-hidden="true" title="Рейтинг: 5 из 5">
+								<span class="stars">
+									<!-- Звезды -->
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+								</span>
+							</div>
+						</div>
+					</header>
+					<div class="review-slide_content">
+						<p>Отзыв очень положительный, всё было быстро и качественно. Рекомендую!</p>
+					</div>
+					<footer class="review-slide_footer">
+						<time datetime="2025-04-20">20 апреля 2025</time>
+					</footer>
+				</article>
+
+				<!-- 6 слайд -->
+				<article class="review-slide swiper-slide" role="group" aria-label="Отзыв 6">
+					<header class="review-slide_header">
+						<div class="review-slide_avatar" aria-hidden="true">
+							<img class="img-responsive" src="./images/webp/block-6/woman.webp" alt="Аватар пользователя">
+						</div>
+						<div class="review-slide_info">
+							<h3 class="review-slide_author">Илья Васильев</h3>
+							<div class="review-slide_rating" aria-hidden="true" title="Рейтинг: 5 из 5">
+								<span class="stars">
+									<!-- Звезды -->
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+									<img src="./icons/star.svg" alt="star" aria-hidden="true">
+								</span>
+							</div>
+						</div>
+					</header>
+					<div class="review-slide_content">
+						<p>Отзыв очень положительный, всё было быстро и качественно. Рекомендую!</p>
+					</div>
+					<footer class="review-slide_footer">
+						<time datetime="2025-04-20">20 апреля 2025</time>
+					</footer>
+				</article>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+				<section id="partners" class="section-partners" aria-labelledby="it-partners">
+	<h2 class="visually-hidden" id="it-partners">Наши партнеры</h2>
+	<div class="container">
+		<div class="accent-title">Наши партнеры</div>
+		<div class="partners">
+			<div class="row g-2 g-md-4">
+				<!-- 1 -->
+				<div class="col-6">
+					<div class="parteners-card">
+						<div class="partners-card_image">
+							<img src="./images/webp/block-65/vkusvil.webp" alt="VkusVill">
+						</div>
+					</div>
+				</div>
+
+				<!-- 2 -->
+				<div class="col-6">
+					<div class="parteners-card">
+						<div class="partners-card_image">
+							<img src="./images/webp/block-65/eda.webp" alt="Yandex Eda">
+						</div>
+					</div>
+				</div>
+
+				<!-- 3 -->
+				<div class="col-6">
+					<div class="parteners-card">
+						<div class="partners-card_image">
+							<img src="./images/webp/block-65/lavka.webp" alt="Yandex Lavka">
+						</div>
+					</div>
+				</div>
+				<!-- 4 -->
+				<div class="col-6">
+					<div class="parteners-card">
+						<div class="partners-card_image">
+							<img src="./images/webp/block-65/samokat.webp" alt="Samokat">
+						</div>
+					</div>
+				</div>
+
+				<!-- 5 -->
+				<div class="col-6">
+					<div class="parteners-card">
+						<div class="partners-card_image">
+							<img src="./images/webp/block-65/x5group.webp" alt="x5Group">
+						</div>
+					</div>
+				</div>
+
+				<!-- 6 -->
+				<div class="col-6">
+					<div class="parteners-card">
+						<div class="partners-card_image">
+							<img src="./images/webp/block-65/magnit.webp" alt="Magnit">
+						</div>
+					</div>
+				</div>
+
+				<!-- 7 -->
+				<div class="col-12">
+					<div class="parteners-card partners-card-end">
+						<div class="partners-card_image">
+							<img src="./images/webp/block-65/kuper.webp" alt="Kuper">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+				<section class="section-map">
+	<h2 class="section-title">Место положение компании в Санкт-Петербурге</h2>
+
+	<div class="section-map_iframe" style="position: relative; overflow: hidden">
+		<a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color: #eee; font-size: 12px; position: absolute; top: 0px">Санкт‑Петербург</a><a href="https://yandex.ru/maps/2/saint-petersburg/house/prospekt_marshala_zhukova_26_16v/Z0kYdARkTUADQFtjfXR0eH1kYg==/?ll=30.234636%2C59.859001&source=serp_navig&utm_medium=mapframe&utm_source=maps&z=18" style="color: #eee; font-size: 12px; position: absolute; top: 14px">Яндекс Карты — транспорт, навигация, поиск мест</a>
+		<!-- <iframe
+			src="https://yandex.com/map-widget/v1/?ll=30.3159,59.9343&mode=search&oid=1234567890&ol=biz&z=14"
+			allowfullscreen="true"
+			style="position: relative"
+			frameborder="0"
+		></iframe> -->
+
+		<iframe src="https://yandex.ru/map-widget/v1/?ll=30.234636%2C59.859001&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzQxOTc0MRJi0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0L_RgNC-0YHQv9C10LrRgiDQnNCw0YDRiNCw0LvQsCDQltGD0LrQvtCy0LAsIDI2LzE20JIiCg0r4PFBFcxvb0I%2C&source=serp_navig&z=18" frameborder="1" allowfullscreen="true" style="position: relative"></iframe>
+	</div>
+</section>
+
+			</main>
+			<footer id="colophon" class="footer">
+    <div class="site-footer_copyright">
+        <p>© 2025 Все права защищены.</p>
+    </div>
+</footer>
+		</div>
+				
+		<div class="btn-up btn-up_hide"></div>
+<div class="none"></div>
+
+<!-- <a class="none" href="#openModalMessage">Открыть модальное окно</a> -->
+<!-- <a class="none"  href="#openPanelka">Открыть модальное окно второе</a> -->
+
+<div id="openModalMessage" class="modal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3 class="modal-title">Оставить заявку</h3>
+				<a href="#close" title="Close" class="close">×</a>
+			</div>
+			<div class="modal-body">
+				<form id="FormFeedBackMessage" name="form" method="post">
+					<label>
+						<input class="vaz__input" id="fname" type="text" placeholder="Имя" name="name" maxlength="30" required>
+						<span>Ваше Имя</span>
+					</label>
+					<label>
+						<input class="vaz__input" type="email" placeholder="Email" name="mail">
+						<span>Ваш Email</span>
+					</label>
+					<label>
+						<input class="vaz__input form-control mask-phone" type="tel" placeholder="Номер телефона" name="phone" required>
+						<span>Ваш номер телефона</span>
+					</label>
+					<label>
+						<input class="vaz__input" type="text" placeholder="Сообщение" name="message">
+						<span>Введите сообщение</span>
+					</label>
+					<input id="loading" class="svaz__btn" type="submit" value="Отправить">
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="openModalExtension" class="modal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3 class="modal-title">Продлить аренду</h3>
+				<a href="#close" title="Close" class="close">×</a>
+			</div>
+			<div class="modal-body">
+				<form id="FormFeedBackExtension" name="form" method="post">
+					<label>
+						<input class="vaz__input" id="fname" type="text" placeholder="Имя" name="name" maxlength="30" required>
+						<span>Ваше Имя</span>
+					</label>
+					<label>
+						<input class="vaz__input" type="email" placeholder="Email" name="mail">
+						<span>Ваш Email</span>
+					</label>
+					<label>
+						<input class="vaz__input form-control mask-phone" type="tel" placeholder="Номер телефона" name="phone" required>
+						<span>Ваш номер телефона</span>
+					</label>
+					<label>
+						<div class="openModalExtensionRadioСontainer">
+							<h2>Выберите тариф</h2>
+							<div class="openModalExtensionRadio">
+								<input id="radio-1" name="tarif" type="radio" value="MyBlock">
+								<label for="radio-1">
+									<p>Мой район</p>
+									<p>Тариф «мой район» 4500р в неделю</p>
+								</label>
+							</div>
+							<div class="openModalExtensionRadio">
+								<input id="radio-2" name="tarif" type="radio" value="ThePros">
+								<label for="radio-2">
+									<p>Профи</p>
+									<p>Тариф «профи» 3500р в неделю</p>
+								</label>
+							</div>
+							<div class="openModalExtensionRadio">
+								<input id="radio-3" name="tarif" type="radio" value="Own">
+								<label for="radio-3">
+									<p>Как свой</p>
+									<p>Тариф «Как свой» 3700р в неделю</p>
+								</label>
+							</div>
+						</div>
+					</label>
+					<input id="loading2" class="svaz__btn" type="submit" value="Отправить">
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="openModalExtension2" class="modal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3 class="modal-title">Оставить заявку</h3>
+				<a href="#close" title="Close" class="close">×</a>
+			</div>
+			<div class="modal-body">
+				<form id="FormFeedBackExtension2" name="form" method="post">
+					<label>
+						<input class="vaz__input" id="fname" type="text" placeholder="Имя" name="name" maxlength="30" required>
+						<span>Ваше Имя</span>
+					</label>
+					<label>
+						<input class="vaz__input" type="email" placeholder="Email" name="mail">
+						<span>Ваш Email</span>
+					</label>
+					<label>
+						<input class="vaz__input form-control mask-phone" type="tel" placeholder="Номер телефона" name="phone" required>
+						<span>Ваш номер телефона</span>
+					</label>
+					<input id="loading3" class="svaz__btn" type="submit" value="Отправить">
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="openPanelka" class="panelka">
+	<div class="pavlene_okoshka">
+		<div class="pavlene_centralu">
+			<div class="pavlene_zagolovok">
+				<h3 class="pavlene_opisaniya">Важное сообщение</h3>
+				<a href="#zavesen" title="Закрыть" class="zavesen">×</a>
+			</div>
+			<div class="panelka-body">
+				<p>
+					Поздравляем! Ваша заявка успешно принята и отправлена.<br>
+					Ждите, в ближайшее время вам перезвонит наш оператор!
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+		
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="vendor/script.js"></script>
+
+	</body>
+</html>
